@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.btn > a { display:inline-block; zoom:1;}
+.english .btn_type01 { width:250px; }
+.english .btn_type01 span { margin:-12px 0 0 -85px; }
+.english .btn_type01 span:after { left:190px; }
+
+.btn_type01 {position:relative;width:150px;height:40px;border-radius:50px;border: 1px solid #fff;}
+.btn_type01 span {position: absolute;left:50%;top:50%;margin:-12px 0 0 -35px;font-size:18px;color: #fff;font-family:'NanumGothic', sans-serif;font-weight:500;line-height:23px;}
+.btn_type01 span:after {content:"";position:absolute;left:75px;top:50%;margin-top:-1px;width:0;height:1px;background: #fff;}
+
+.btn_type02 { width:68px; height:68px; background:url(/img/ico/ico_play.png) no-repeat center;}
+.btn_type03 { width:42px; height:42px; background:url(/img/ico/ico_more_white.png) no-repeat center; }
+.btn_type04 {padding: 5px 15px;border:1px solid #fff;background:transparent;font-size:13px;font-family:'NanumGothic', sans-serif;color:#fff;}
+.btn_type04:hover {background: #fff; color: #3b96bc;}
+
+.btn_type05 {padding: 10px 20px;border:1px solid #333;background:#fff;font-size:14px;color:#333;}
+.btn_type05:hover { border:1px solid #1a69cc; background: #1a69cc; color: #fff; transition: all 0.2s;}
+
+.notice .btn > a { display:block; }
+.btn_type06,
+.btn_type07 { position:relative; width:76px; height:41px; background:#f9fbfd;}
+.btn_type06 { border-top: 1px solid #d9dddf; }
+.btn_type07 { height:40px; border-top:1px solid #d9dddf; }
+.btn_type06:after,
+.btn_type07:after { content:url(/img/bu/bu_arrow_up.png); position:absolute; left:50%; top:50%; margin:-12px 0 0 -7px; width:13px; height:8px; }
+.btn_type07:after { content:url(/img/bu/bu_arrow_down.png);}

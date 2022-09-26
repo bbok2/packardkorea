@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.tbstyle01{border-top: 1px solid #000;}   
+.tbstyle01 thead th{background: #f6f6f6;color: #333;}
+.tbstyle01 tbody th {background-color: #f9f9f9;}
+.tbstyle01 th, 
+.tbstyle01 td {padding: 15px 15px;border: 1px solid #ddd;color: #333;text-align: left;line-height: 1.5;}
+.tbstyle01 th {text-align: center;line-height: 22px;font-weight: normal;}
+.tbstyle01 th p{;}
+
+.tbstyle01 td:first-child,
+.tbstyle01 th:first-child{border-left: none!important}
+.tbstyle01 td:last-child,
+.tbstyle01 th:last-child{border-right: none!important}
+.tbstyle01 tfoot td,.tbstyle01 tfoot th{font-size: 18px;padding: 18px 0;background: #eee;color: #d71a21;}
+
+.privacy .sub_content .inner .tbstyle01 { margin:10px 0; width:70%;}
+
+
+/*minimal*/
+.tbstyle02{}
+.tbstyle02 th,.tbstyle02 td{padding:10px;border: 1px solid #ccc;background: #fff;text-align: center;font-size: 15px;}

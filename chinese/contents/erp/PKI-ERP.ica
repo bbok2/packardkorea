@@ -1,0 +1,23 @@
+[WFClient]
+Version=2
+TcpBrowserAddress=210.123.202.25
+TcpBrowserAddress2=210.123.202.26
+IpxBrowserAddress=0:000D6016932F
+PersistentCachePath=C:\Documents and Settings\Administrator\Application Data\ICAClient\Cache
+
+[ApplicationServers]
+PKI-ERP=
+
+[PKI-ERP]
+Address=210.123.202.25
+Address2=210.123.202.26
+InitialProgram=#PKI-ERP
+ClientAudio=Off
+Compress=On
+TWIMode=On
+DesiredHRES=1024
+DesiredVRES=768
+DesiredColor=4
+TransportDriver=TCP/IP
+WinStationDriver=ICA 3.0
+ScreenPercent=0

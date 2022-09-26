@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* 게시판 목록 */
+#bo_list .td_board {width:120px;text-align:center}
+#bo_list .td_chk {width:30px;text-align:center}
+#bo_list .td_date {width:60px;text-align:center}
+#bo_list .td_datetime {width:110px;text-align:center}
+#bo_list .td_group {width:100px;text-align:center}
+#bo_list .td_mb_id {width:100px;text-align:center}
+#bo_list .td_mng {width:80px;text-align:center}
+#bo_list .td_name {width:100px;text-align: center;}
+#bo_list .td_nick {width:100px;text-align:center}
+#bo_list .td_num {width:50px;text-align:center}
+#bo_list .td_numbig {width:80px;text-align:center}
+
+#bo_list .txt_active {color:#5d910b}
+#bo_list .txt_expired {color:#ccc}
+
+#bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#bo_cate ul {margin-bottom:10px;padding-left:1px;zoom:1}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_cate li {float:left;margin-bottom:-1px}
+#bo_cate a {display:block;position:relative;margin-left:-1px;padding:6px 0 5px;width:90px;border:1px solid #ddd;background:#f7f7f7;color:#888;text-align:center;letter-spacing:-0.1em;line-height:1.2em;cursor:pointer}
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active {text-decoration:none}
+#bo_cate #bo_cate_on {z-index:2;border:1px solid #565e60;background:#fff;color:#565e60;font-weight:bold}
+
+.td_subject img {margin-left:3px}
+
+
+
+#bo_gall{/* width: 1000px!important; *//* margin: 0 auto; */}
+#bo_gall li.empty_list {padding:85px 0;text-align:center}
+
+/* 갤러리 목록 */
+#bo_gall h2 { margin: 0; padding: 0; width: 1px; height: 1px; font-size: 0; line-height: 0; overflow: hidden }
+#bo_gall #gall_ul {margin: 10px 0 0;padding: 0;list-style: none;zoom: 1;}
+#bo_gall #gall_ul:after { display: block; visibility: hidden; clear: both; content: "" }
+#bo_gall .gall_li {float: left;margin: 0 1% 20px!important;width: 23%!important;text-align: center;}
+#bo_gall .gall_con {border: 1px solid #ddd;padding: 10px;}
+#bo_gall .gall_con li {margin: 0 0 15px;}
+#bo_gall .gall_con li>a>img{width:100%;height: auto;}
+#bo_gall .gall_con .gall_subject {/* display:inline-block; */margin-right: 2px;}
+#bo_gall .gall_href{;}
+#bo_gall .gall_href>a{overflow: hidden;display: block;height: 150px;}
+#bo_gall .gall_href>a>img{;}
+#bo_gall .gall_text_href {margin: 6px 0 !important;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: auto!important;font-size: 13px;}
+#bo_gall .gall_text_href a {font-weight: bold;}
+#bo_gall .gall_text_href span { display: inline !important }
+#bo_gall .gall_text_href img { margin: 0 0 0 4px }
