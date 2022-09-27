@@ -64,5 +64,5 @@ include 'config.php'
         </div>
         <h2 class="sub_ctit">
             <strong><?=$stit[$mmenu-1][$smenu-1]?></strong>
-            <?php if($stxt[$mmenu-1]!=''){?><span><?=$stxt[$mmenu-1]?></span><?}?>
+            <? php if($stxt[$mmenu-1]!=''){ ?><span><?=$stxt[$mmenu-1]?></span><?}?>
         </h2>

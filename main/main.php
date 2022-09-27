@@ -2,7 +2,7 @@
 $mmenu = 9999;
 $smenu = 9999;
 include_once '../contents/inc/config.php';
-include_once '../common.php';
+// include_once '../common.php';  // 디비연결해야 오류 안남
 include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
 ?>
 
